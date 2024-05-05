@@ -1,22 +1,29 @@
-/* Reset CSS */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Styling */
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #171717; /* Ubah background menjadi warna putih */
+    background-color: #171717; /* Ubah warna background  */
 }
 
 header {
     background-color: #171717;
-    color: #171717;
+    color: #ffffff;
     padding: 1em;
     text-align: center;
+}
+
+img {
+border-radius: 100px 100px 100px 100px;
+width: auto;
+height: 200px;
+
 }
 
 nav {
@@ -35,18 +42,23 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #171717;
-    text-decoration: none;
+    color: #58a3ff;
+    text-decoration: double;
 }
 
 main {
     padding: 20px;
     text-align: center;
+    color: #ffffff;
+}
+
+section {
+    padding: 10px;
 }
 
 footer {
     background-color: #171717;
-    color: #171717;
-    padding: 1em;
+    color: #ffffff;
+    padding: 1cm;
     text-align: center;
 }
